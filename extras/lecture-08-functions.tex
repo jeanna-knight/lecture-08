@@ -1,0 +1,138 @@
+\documentclass{tufte-handout}
+
+\usepackage{xcolor}
+
+% set hyperlink attributes
+\hypersetup{colorlinks}
+
+% set image attributes:
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+% indent subsections
+\newenvironment{subs}
+  {\adjustwidth{3em}{0pt}}
+  {\endadjustwidth}
+
+% ============================================================
+
+% define the title
+\title{SOC 4015/5050: Lecture 08 Functions}
+\author{Christopher Prener, Ph.D.}
+\date{Fall 2018}
+% ============================================================
+\begin{document}
+% ============================================================
+\maketitle % generates the title
+% ============================================================
+
+\vspace{5mm}
+\section{Packages}
+\begin{itemize}
+\item \texttt{car}
+\item \texttt{effsize}
+\item \texttt{ggridges}
+\item \texttt{ggstatsplot}
+\item \texttt{pwr}
+\item \texttt{stats}
+\item \texttt{tidyverse}
+\begin{itemize}
+\item \texttt{broom}
+\item \texttt{ggplot2}
+\item \texttt{readr}
+\end{itemize}
+\end{itemize}
+
+\vspace{5mm}
+\section{Reading and Writing Data}\marginnote{You need to use the \texttt{here} package to build your file paths correctly.}
+\begin{subs}
+\subsection{Reading Data}
+\noindent \texttt{readr::}{\color{red}\texttt{read\_csv}}\texttt{(path = \textit{filePath})}\\
+
+\vspace{3mm}
+\subsection{Writing Data}
+\noindent \texttt{readr::}{\color{red}\texttt{write\_csv}}\texttt{(\textit{dataFrame}, path = \textit{filePath})}\\
+\end{subs}
+
+\vspace{5mm}
+\section{Tidy Output}
+\noindent \texttt{broom::}{\color{red}\texttt{tidy}}\texttt{(\textit{testFunction})}\\
+
+\vspace{5mm}
+\section{Saving Plots}\marginnote{This use of \texttt{ggsave} will save the plot you have created most recently.}
+\noindent \texttt{ggplot2::}{\color{red}\texttt{ggsave}}\texttt{(\textit{filename}, dpi = \textit{val})}\\
+
+\vspace{5mm}
+\section{Plots for Mean Difference}
+\begin{subs}
+\subsection{Box Plot}
+\noindent \texttt{ggplot2::}{\color{red}\texttt{geom\_boxplot}}\texttt{(mapping = aes(\textit{aesthetic}))}\\
+
+\vspace{3mm}
+\subsection{Violin Plot}
+\noindent \texttt{ggplot2::}{\color{red}\texttt{geom\_violin}}\texttt{(mapping = aes(\textit{aesthetic}))}\\
+
+\vspace{3mm}
+\subsection{Violin Plot with Mean Points}\marginnote{You need to set the base aesthetic mapping in your initial \texttt{ggplot()} call.}
+\noindent \texttt{ggplot2::}{\color{red}\texttt{geom\_violin}}\texttt{(mapping = aes(\textit{aesthetic})) +}\\
+\noindent \texttt{ggplot2::}{\color{red}\texttt{stat\_summary}}\texttt{(fun.y = mean, geom = "point"))}
+
+\vspace{3mm}
+\subsection{Ridge Plot}
+\noindent \texttt{ggridges::}{\color{red}\texttt{geom\_density\_ridges}}\texttt{(mapping = aes(\textit{aesthetic}))}\\
+
+\vspace{3mm}
+\subsection{Ridge Plot with Transparent Fill}
+\noindent \texttt{ggridges::}{\color{red}\texttt{geom\_density\_ridges}}\texttt{(mapping = aes(\textit{aesthetic}),\\alpha = \textit{val})}\\
+
+\vspace{3mm}
+\subsection{Stats Plot}\marginnote{You \textit{do not} need to call the \texttt{ggplot()} function first! Valid \texttt{plot.type} values are \texttt{"violin"}, \texttt{"box"}, and \texttt{"boxviolin"}.}
+\noindent \texttt{ggstatsplot::}{\color{red}\texttt{ggbetweenstats}}\texttt{(data = \textit{dataFrame}, \\x = \textit{xvar}, y = \textit{yvar}, effsize.type = "biased", \\plot.type = \textit{plotType})}\\
+\end{subs}
+
+
+\vspace{5mm}
+\section{Levene's Test}
+\noindent \texttt{car::}{\color{red}\texttt{leveneTest}}\texttt{(\textit{yVar \textasciitilde\ xVar}, data = \textit{dataFrame})}\\
+
+\vspace{5mm}
+\section{One-Sample T Test}
+\noindent \texttt{stats::}{\color{red}\texttt{t.test}}\texttt{(\textit{dataFrame}\$\textit{yVar}, mu = \textit{val})}\\
+
+\vspace{5mm}
+\section{Two-Sample (Independent) T Test}\marginnote{Do not forget to adjust the value of \texttt{var.equal} based on the findings of the Levene's test.}
+\noindent \texttt{stats::}{\color{red}\texttt{t.test}}\texttt{(\textit{dataFrame}\$\textit{yVar} \textasciitilde\ \textit{dataFrame}\$\textit{xVar}, \\ var.equal = \textit{FALSE})}\\
+
+\vspace{5mm}
+\section{Reshaping Data}
+\begin{subs}
+\subsection{Wide to Long}
+\noindent \texttt{tidyr::}{\color{red}\texttt{gather}}\texttt{(\textit{dataFrame}, \textit{key}, \textit{value}, \textit{\ldots})}\\
+
+\vspace{3mm}
+\subsection{Long to Wide}
+\noindent \texttt{tidyr::}{\color{red}\texttt{spread}}\texttt{(\textit{dataFrame}, \textit{key}, \textit{value})}\\
+\end{subs}
+
+\vspace{5mm}
+\section{Dependent T Test}
+\noindent \texttt{stats::}{\color{red}\texttt{t.test}}\texttt{(\textit{dataFrame}\$\textit{y1}, \textit{dataFrame}\$\textit{y2}, paired = TRUE)}\\
+
+\vspace{5mm}
+\section{Cohen's d}
+\begin{subs}
+\subsection{Independent Observations}
+\noindent \texttt{effsize::}{\color{red}\texttt{cohen.d}}\texttt{(\textit{dataFrame}\$\textit{yVar} \textasciitilde\ \textit{dataFrame}\$\textit{xVar}, \\ pooled = \textit{TRUE}, paired = FALSE)}\\
+
+\vspace{3mm}
+\subsection{Dependent Observations}
+\noindent \texttt{effsize::}{\color{red}\texttt{cohen.d}}\texttt{(\textit{dataFrame}\$\textit{y1}, \textit{dataFrame}\$\textit{y2}, \\ paired = TRUE)}\\
+\end{subs}
+
+\vspace{5mm}
+\section{Power Analysis}\marginnote{Valid \texttt{type} values are \texttt{"one.sample"}, \texttt{"two.sample"}, and \texttt{"paired"}.}
+\noindent \texttt{pwr::}{\color{red}\texttt{pwr.t.test}}\texttt{(d = \textit{val}, power = \textit{val}, sig.level = \textit{val}, \\type = \textit{type}, alternative = "two.sided")}\\
+
+
+% ============================================================
+\end{document}
