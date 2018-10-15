@@ -8,7 +8,7 @@ lecture-08 <img src="https://slu-soc5050.github.io/images/logo.png" align="right
 [![Travis-CI Build Status](https://travis-ci.org/slu-soc5050/lecture-08.svg?branch=master)](https://travis-ci.org/slu-soc5050/lecture-08)
 [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/slu-soc5050/lecture-08?branch=master&svg=true)](https://ci.appveyor.com/project/chris-prener/lecture-08)
 
-This is the repository for Lecture 08 of the Saint Louis University course SOC 4015/5050 - Quantitative Analysis. This lecture introduces functions for calculating difference of means tests in R. The basics of LaTeX are also introduced.
+This is the repository for Lecture 08 of the Saint Louis University course SOC 4015/5050 - Quantitative Analysis. This lecture introduces functions for calculating difference of means tests in R and plotting their results.
 
 ### Lecture Objectives
 At the end of this lecture and its corresponding assignments, students should be able to:
