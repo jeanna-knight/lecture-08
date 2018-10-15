@@ -1,23 +1,28 @@
 Package: lecture-08
 Title: SOC 4015/5050 - Lecture 08 - Difference of Means (Part 2)
-Version: 18.1.0.9000
+Version: 18.2.0
 Authors@R: person("Christopher", "Prener", email = "chris.prener@slu.edu",
                   role = c("aut", "cre"))
 Description: This is the repository for Lecture 08 of the Saint Louis University
     course SOC 4015/5050 - Quantitative Analysis. This lecture introduces functions
-    for calculating difference of means tests in R. The basics of LaTeX are
-    also introduced.
+    for calculating difference of means tests in R and plotting their results.
 Depends: R (>= 3.4)
 License: CC-BY-SA-4.0 + LICENSE
 Web: https://slu-soc5050.github.io
 URL: https://github.com/slu-soc5050/lecture-08
 BugReports: https://github.com/slu-soc5050/lecture-08/issues
 Imports:
+    broom,
+    car,
+    dplyr,
+    effsize,
+    ggplot2,
+    ggridges,
+    ggstatsplot,
     here,
     knitr,
-    remotes,
+    pwr,
     rmarkdown,
     testDriveR,
+    tidyr,
     usethis
-Remotes:
-    chris-prener/testDriveR
