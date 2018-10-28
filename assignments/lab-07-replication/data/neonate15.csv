@@ -1,0 +1,196 @@
+countryISO,countryName,continent,category,year,estimate,africa
+AF,Afghanistan,Asia,neonate_MR,2015,35.5,FALSE
+AL,Albania,Europe,neonate_MR,2015,6.2,FALSE
+DZ,Algeria,Africa,neonate_MR,2015,15.5,TRUE
+AD,Andorra,Europe,neonate_MR,2015,1.4,FALSE
+AO,Angola,Africa,neonate_MR,2015,48.7,TRUE
+AG,Antigua & Barbuda,North America,neonate_MR,2015,4.9,FALSE
+AR,Argentina,South America,neonate_MR,2015,6.3,FALSE
+AM,Armenia,Asia,neonate_MR,2015,7.4,FALSE
+AU,Australia,Oceania,neonate_MR,2015,2.2,FALSE
+AT,Austria,Europe,neonate_MR,2015,2.1,FALSE
+AZ,Azerbaijan,Asia,neonate_MR,2015,18.2,FALSE
+BS,Bahamas,North America,neonate_MR,2015,6.9,FALSE
+BH,Bahrain,Asia,neonate_MR,2015,1.1,FALSE
+BD,Bangladesh,Asia,neonate_MR,2015,23.3,FALSE
+BB,Barbados,North America,neonate_MR,2015,8,FALSE
+BY,Belarus,Europe,neonate_MR,2015,1.9,FALSE
+BE,Belgium,Europe,neonate_MR,2015,2.2,FALSE
+BZ,Belize,North America,neonate_MR,2015,8.3,FALSE
+BJ,Benin,Africa,neonate_MR,2015,31.8,TRUE
+BT,Bhutan,Asia,neonate_MR,2015,18.3,FALSE
+BO,Bolivia,South America,neonate_MR,2015,19.6,FALSE
+BA,Bosnia & Herzegovina,Europe,neonate_MR,2015,4,FALSE
+BW,Botswana,Africa,neonate_MR,2015,21.9,TRUE
+BR,Brazil,South America,neonate_MR,2015,8.9,FALSE
+BN,Brunei,Asia,neonate_MR,2015,4.3,FALSE
+BG,Bulgaria,Europe,neonate_MR,2015,5.6,FALSE
+BF,Burkina Faso,Africa,neonate_MR,2015,26.7,TRUE
+BI,Burundi,Africa,neonate_MR,2015,28.6,TRUE
+KH,Cambodia,Asia,neonate_MR,2015,14.8,FALSE
+CM,Cameroon,Africa,neonate_MR,2015,25.7,TRUE
+CA,Canada,North America,neonate_MR,2015,3.2,FALSE
+CV,Cape Verde,Africa,neonate_MR,2015,12.2,TRUE
+CF,Central African Republic,Africa,neonate_MR,2015,42.6,TRUE
+TD,Chad,Africa,neonate_MR,2015,39.3,TRUE
+CL,Chile,South America,neonate_MR,2015,4.9,FALSE
+CN,China,Asia,neonate_MR,2015,5.5,FALSE
+CO,Colombia,South America,neonate_MR,2015,8.5,FALSE
+KM,Comoros,Africa,neonate_MR,2015,34,TRUE
+CG,Congo,Africa,neonate_MR,2015,18,TRUE
+CD,Congo DR,Africa,neonate_MR,2015,30.1,TRUE
+CK,Cook Islands,Oceania,neonate_MR,2015,4.4,FALSE
+CR,Costa Rica,North America,neonate_MR,2015,6.2,FALSE
+CI,Cote d Ivoire,Africa,neonate_MR,2015,37.9,TRUE
+HR,Croatia,Europe,neonate_MR,2015,2.6,FALSE
+CU,Cuba,North America,neonate_MR,2015,2.3,FALSE
+CY,Cyprus,Asia,neonate_MR,2015,1.5,FALSE
+CZ,Czech Republic,Europe,neonate_MR,2015,1.8,FALSE
+DK,Denmark,Europe,neonate_MR,2015,2.5,FALSE
+DJ,Djibouti,Africa,neonate_MR,2015,33.4,TRUE
+DM,Dominica,North America,neonate_MR,2015,15.6,FALSE
+DO,Dominican Republic,North America,neonate_MR,2015,21.7,FALSE
+EC,Ecuador,South America,neonate_MR,2015,10.8,FALSE
+EG,Egypt,Africa,neonate_MR,2015,12.8,TRUE
+SV,El Salvador,North America,neonate_MR,2015,8.3,FALSE
+GQ,Equatorial Guinea,Africa,neonate_MR,2015,33.1,TRUE
+ER,Eritrea,Africa,neonate_MR,2015,18.4,TRUE
+EE,Estonia,Europe,neonate_MR,2015,1.5,FALSE
+ET,Ethiopia,Africa,neonate_MR,2015,27.7,TRUE
+FM,Federated States of Micronesia,Oceania,neonate_MR,2015,18.8,FALSE
+FJ,Fiji,Oceania,neonate_MR,2015,9.6,FALSE
+FI,Finland,Europe,neonate_MR,2015,1.3,FALSE
+FR,France,Europe,neonate_MR,2015,2.2,FALSE
+GA,Gabon,Africa,neonate_MR,2015,23.2,TRUE
+GM,Gambia The,Africa,neonate_MR,2015,29.9,TRUE
+GE,Georgia,Asia,neonate_MR,2015,7.2,FALSE
+DE,Germany,Europe,neonate_MR,2015,2.1,FALSE
+GH,Ghana,Africa,neonate_MR,2015,28.3,TRUE
+GR,Greece,Europe,neonate_MR,2015,2.9,FALSE
+GD,Grenada,North America,neonate_MR,2015,6,FALSE
+GT,Guatemala,North America,neonate_MR,2015,13.4,FALSE
+GN,Guinea,Africa,neonate_MR,2015,31.3,TRUE
+GW,Guinea-Bissau,Africa,neonate_MR,2015,39.7,TRUE
+GY,Guyana,South America,neonate_MR,2015,22.8,FALSE
+HT,Haiti,North America,neonate_MR,2015,25.4,FALSE
+HN,Honduras,North America,neonate_MR,2015,11,FALSE
+HU,Hungary,Europe,neonate_MR,2015,3.5,FALSE
+IS,Iceland,Europe,neonate_MR,2015,0.9,FALSE
+IN,India,Asia,neonate_MR,2015,27.7,FALSE
+ID,Indonesia,Asia,neonate_MR,2015,13.5,FALSE
+IR,Iran,Asia,neonate_MR,2015,9.5,FALSE
+IQ,Iraq,Asia,neonate_MR,2015,18.4,FALSE
+IE,Ireland,Europe,neonate_MR,2015,2.3,FALSE
+IL,Israel,Asia,neonate_MR,2015,2.1,FALSE
+IT,Italy,Europe,neonate_MR,2015,2.1,FALSE
+JM,Jamaica,North America,neonate_MR,2015,11.6,FALSE
+JP,Japan,Asia,neonate_MR,2015,0.9,FALSE
+JO,Jordan,Asia,neonate_MR,2015,10.6,FALSE
+KZ,Kazakhstan,Asia,neonate_MR,2015,7,FALSE
+KE,Kenya,Africa,neonate_MR,2015,22.2,TRUE
+KI,Kiribati,Oceania,neonate_MR,2015,23.7,FALSE
+KP,Korea DPR,Asia,neonate_MR,2015,13.5,FALSE
+KR,Korea Rep,Asia,neonate_MR,2015,1.6,FALSE
+KW,Kuwait,Asia,neonate_MR,2015,3.2,FALSE
+KG,Kyrgyzstan,Asia,neonate_MR,2015,11.5,FALSE
+LA,Lao PDR,Asia,neonate_MR,2015,30.1,FALSE
+LV,Latvia,Europe,neonate_MR,2015,5.2,FALSE
+LB,Lebanon,Asia,neonate_MR,2015,4.8,FALSE
+LS,Lesotho,Africa,neonate_MR,2015,32.7,TRUE
+LR,Liberia,Africa,neonate_MR,2015,24.1,TRUE
+LY,Libya,Africa,neonate_MR,2015,7.2,TRUE
+LT,Lithuania,Europe,neonate_MR,2015,2.5,FALSE
+LU,Luxembourg,Europe,neonate_MR,2015,0.9,FALSE
+MK,Macedonia,Europe,neonate_MR,2015,3.5,FALSE
+MG,Madagascar,Africa,neonate_MR,2015,19.7,TRUE
+MW,Malawi,Africa,neonate_MR,2015,21.8,TRUE
+MY,Malaysia,Asia,neonate_MR,2015,3.9,FALSE
+MV,Maldives,Asia,neonate_MR,2015,4.9,FALSE
+ML,Mali,Africa,neonate_MR,2015,37.8,TRUE
+MT,Malta,Europe,neonate_MR,2015,4.4,FALSE
+MH,Marshall Islands,Oceania,neonate_MR,2015,16.7,FALSE
+MR,Mauritania,Africa,neonate_MR,2015,35.7,TRUE
+MU,Mauritius,Africa,neonate_MR,2015,8.4,TRUE
+MX,Mexico,North America,neonate_MR,2015,7,FALSE
+MD,Moldova,Europe,neonate_MR,2015,11.9,FALSE
+MC,Monaco,Europe,neonate_MR,2015,1.9,FALSE
+MN,Mongolia,Asia,neonate_MR,2015,11.1,FALSE
+ME,Montenegro,Europe,neonate_MR,2015,3.1,FALSE
+MA,Morocco,Africa,neonate_MR,2015,17.6,TRUE
+MZ,Mozambique,Africa,neonate_MR,2015,27.1,TRUE
+MM,Myanmar,Asia,neonate_MR,2015,26.4,FALSE
+"NA",Namibia,Africa,neonate_MR,2015,15.9,TRUE
+NR,Nauru,Oceania,neonate_MR,2015,22.7,FALSE
+NP,Nepal,Asia,neonate_MR,2015,22.2,FALSE
+NL,Netherlands,Europe,neonate_MR,2015,2.4,FALSE
+NZ,New Zealand,Oceania,neonate_MR,2015,3.1,FALSE
+NI,Nicaragua,North America,neonate_MR,2015,9.8,FALSE
+NE,Niger,Africa,neonate_MR,2015,26.8,TRUE
+NG,Nigeria,Africa,neonate_MR,2015,34.3,TRUE
+NU,Niue,Oceania,neonate_MR,2015,12.5,FALSE
+NO,Norway,Europe,neonate_MR,2015,1.5,FALSE
+OM,Oman,Asia,neonate_MR,2015,5.2,FALSE
+PK,Pakistan,Asia,neonate_MR,2015,45.5,FALSE
+PW,Palau,Oceania,neonate_MR,2015,9,FALSE
+PA,Panama,North America,neonate_MR,2015,9.6,FALSE
+PG,Papua New Guinea,Oceania,neonate_MR,2015,24.5,FALSE
+PY,Paraguay,South America,neonate_MR,2015,10.9,FALSE
+PE,Peru,South America,neonate_MR,2015,8.2,FALSE
+PH,Philippines,Asia,neonate_MR,2015,12.6,FALSE
+PL,Poland,Europe,neonate_MR,2015,3.1,FALSE
+PT,Portugal,Europe,neonate_MR,2015,2,FALSE
+QA,Qatar,Asia,neonate_MR,2015,3.8,FALSE
+RO,Romania,Europe,neonate_MR,2015,6.3,FALSE
+RU,Russian Federation,Europe,neonate_MR,2015,5,FALSE
+RW,Rwanda,Africa,neonate_MR,2015,18.7,TRUE
+KN,Saint Kitts & Nevis,North America,neonate_MR,2015,6.5,FALSE
+LC,Saint Lucia,North America,neonate_MR,2015,9.3,FALSE
+WS,Samoa,Oceania,neonate_MR,2015,9.5,FALSE
+SM,San Marino,Europe,neonate_MR,2015,0.7,FALSE
+ST,Sao Tome & Principe,Africa,neonate_MR,2015,17.1,TRUE
+SA,Saudi Arabia,Asia,neonate_MR,2015,7.9,FALSE
+SN,Senegal,Africa,neonate_MR,2015,20.8,TRUE
+RS,Serbia,Europe,neonate_MR,2015,4.2,FALSE
+SC,Seychelles,Africa,neonate_MR,2015,8.6,TRUE
+SL,Sierra Leone,Africa,neonate_MR,2015,34.9,TRUE
+SG,Singapore,Asia,neonate_MR,2015,1,FALSE
+SK,Slovakia,Europe,neonate_MR,2015,4.2,FALSE
+SI,Slovenia,Europe,neonate_MR,2015,1.4,FALSE
+SB,Solomon Islands,Oceania,neonate_MR,2015,12.2,FALSE
+SO,Somalia,Africa,neonate_MR,2015,39.7,TRUE
+ZA,South Africa,Africa,neonate_MR,2015,11,TRUE
+SS,South Sudan,Africa,neonate_MR,2015,39.3,TRUE
+ES,Spain,Europe,neonate_MR,2015,2.8,FALSE
+LK,Sri Lanka,Asia,neonate_MR,2015,5.4,FALSE
+VC,St Vincent & the Grenadines,North America,neonate_MR,2015,11.5,FALSE
+PS,State of Palestine,Asia,neonate_MR,2015,11.8,FALSE
+SD,Sudan,Africa,neonate_MR,2015,29.8,TRUE
+SR,Suriname,South America,neonate_MR,2015,11.5,FALSE
+SZ,Swaziland,Africa,neonate_MR,2015,14.2,TRUE
+SE,Sweden,Europe,neonate_MR,2015,1.6,FALSE
+CH,Switzerland,Europe,neonate_MR,2015,2.7,FALSE
+SY,Syria,Asia,neonate_MR,2015,7,FALSE
+TJ,Tajikistan,Asia,neonate_MR,2015,20.5,FALSE
+TZ,Tanzania,Africa,neonate_MR,2015,18.8,TRUE
+TH,Thailand,Asia,neonate_MR,2015,6.7,FALSE
+TL,Timor Leste,Asia,neonate_MR,2015,22.3,FALSE
+TG,Togo,Africa,neonate_MR,2015,26.7,TRUE
+TO,Tonga,Oceania,neonate_MR,2015,6.9,FALSE
+TT,Trinidad & Tobago,North America,neonate_MR,2015,13.2,FALSE
+TN,Tunisia,Africa,neonate_MR,2015,8.2,TRUE
+TR,Turkey,Europe,neonate_MR,2015,7.1,FALSE
+TM,Turkmenistan,Asia,neonate_MR,2015,22.6,FALSE
+TV,Tuvalu,Oceania,neonate_MR,2015,17.6,FALSE
+UG,Uganda,Africa,neonate_MR,2015,18.7,TRUE
+UA,Ukraine,Europe,neonate_MR,2015,5.5,FALSE
+AE,United Arab Emirates,Asia,neonate_MR,2015,3.5,FALSE
+GB,United Kingdom,Europe,neonate_MR,2015,2.4,FALSE
+US,United States of America,North America,neonate_MR,2015,3.6,FALSE
+UY,Uruguay,South America,neonate_MR,2015,5.1,FALSE
+UZ,Uzbekistan,Asia,neonate_MR,2015,20.4,FALSE
+VU,Vanuatu,Oceania,neonate_MR,2015,11.6,FALSE
+VE,Venezuela,South America,neonate_MR,2015,8.9,FALSE
+VN,Vietnam,Asia,neonate_MR,2015,11.4,FALSE
+YE,Yemen,Asia,neonate_MR,2015,22.1,FALSE
+ZM,Zambia,Africa,neonate_MR,2015,21.4,TRUE
+ZW,Zimbabwe,Africa,neonate_MR,2015,23.5,TRUE
